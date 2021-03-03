@@ -176,14 +176,14 @@
 // };
 // fruit = fruit.changeAt(1, "x");
 // console.log(fruit);
-// let list = [6, 5, 4, 3, 2, 1, 0];
-// for (let i = 0; i < list.length; i++) {
-//   for (let j = i + 1; j < list.length; j++) {
-//     if (list[j] < list[i]) {
-//       let x = list[i];
-//       list[i] = list[j];
-//       list[j] = x;
-//     }
-//   }
-// }
-// console.log(list);
+let list = [6, 5, 4, 3, 2, 1, 0];
+for (let i = 0; i < list.length; i++) {
+  for (let j = i + 1; j < list.length; j++) {
+    if (list[j] < list[i]) {
+      let x = list[i];
+      list[i] = list[j];
+      list[j] = x;
+    }
+  }
+}
+console.log(list);
